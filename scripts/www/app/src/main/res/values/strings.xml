@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TXT阅读器</string>
+    <string name="select_file">选择文件</string>
+    <string name="no_file_selected">未选择文件</string>
+    <string name="settings">设置</string>
+    <string name="font_size">字体大小</string>
+    <string name="line_spacing">行距</string>
+    <string name="letter_spacing">字间距</string>
+    <string name="background_color">背景颜色</string>
+    <string name="back">返回</string>
+</resources>
