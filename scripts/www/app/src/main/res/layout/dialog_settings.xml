@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/font_size"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <SeekBar
+        android:id="@+id/seekFontSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="30"
+        android:progress="18"
+        android:min="12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_spacing"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp" />
+
+    <SeekBar
+        android:id="@+id/seekLineSpacing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="30"
+        android:progress="15"
+        android:min="5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/letter_spacing"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp" />
+
+    <SeekBar
+        android:id="@+id/seekLetterSpacing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:progress="0"
+        android:min="-10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/background_color"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/rbBeige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="米色"
+            android:layout_marginEnd="10dp"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rbGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绿色"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/rbBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蓝色"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/rbBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黑色" />
+
+    </RadioGroup>
+
+</LinearLayout>
